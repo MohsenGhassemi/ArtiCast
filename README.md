@@ -10,7 +10,13 @@ All scraping tools in this repository are Jupyter notebooks. The scrape starts w
 
 ====================CHROME EXTENSION TOOLS
 
-The overall format of this chrome extension is based on [this repository](https://github.com/jiananarthurli/insight_chrome_extension).
+The overall format of this chrome extension is based on [this repository](https://github.com/jiananarthurli/insight_chrome_extension). 
+
+ INSTALLATION:
+* Download or clone this repo to your personal machine
+* Install and launch Google Chrome
+* Click the the three vertical dots in the top right of Chrome, then click More tools, then click Extensions (see Extension support for more info)
+* Click the Load unpacked button in the upper left corner, navigate to wherever you downloaded this repo (most likely Downloads) and and select the chrome__ext folder located inside the foodTalk directory If the installation was successful you will see this logo grayLogo to the right of search bar. Navigate to a recipe you want to try for example, and click on the icon to begin!
 
 ====================ANALYTICAL TOOLS
 
