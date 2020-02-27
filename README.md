@@ -16,7 +16,8 @@ The overall format of this chrome extension is based on [this repository](https:
 * Download or clone this repo to your personal machine
 * Install and launch Google Chrome
 * Click the the three vertical dots in the top right of Chrome, then click More tools, then click Extensions (see Extension support for more info)
-* Click the Load unpacked button in the upper left corner, navigate to wherever you downloaded this repo (most likely Downloads) and and select the Chrome_extension folder located inside the ArtiCast directory. If the installation was successful you will see this logo ![grayLogo](https://github.com/MohsenGhassemi/ArtiCast/tree/master/Chrome_extension/icons/Logo.png) to the right of search bar. Navigate to a recipe you want to try for example, and click on the icon to begin!
+* Click the Load unpacked button in the upper left corner, navigate to wherever you downloaded this repo (most likely Downloads) and and select the Chrome_extension folder located inside the ArtiCast directory. If the installation was successful you will see this logo 
+![grayLogo](https://github.com/MohsenGhassemi/ArtiCast/tree/master/Chrome_extension/icons/Logo.png) to the right of search bar. Navigate to a recipe you want to try for example, and click on the icon to begin!
 
 ====================ANALYTICAL TOOLS
 
