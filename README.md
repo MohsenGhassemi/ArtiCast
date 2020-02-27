@@ -18,12 +18,12 @@ The overall format of this chrome extension is based on [this repository](https:
 * Click the the three vertical dots in the top right of Chrome, then click More tools, then click Extensions (see Extension support for more info)
 * Click the Load unpacked button in the upper left corner, navigate to wherever you downloaded this repo (most likely Downloads) and and select the Chrome_extension folder located inside the ArtiCast directory. If the installation was successful you will see the Articast logo to the right of search bar. Now, you can click on the ArtiCast when you find an interesting article and listen  and find related 
 
-## How doers it work?
+## How it works
 The algorithm is implemented as an application on an Amazon EC2 instance using the [Django](https://www.djangoproject.com/start/overview/) webframework.
-When the user clicks on the "Find podcast episodes" button on the chrome extension (see [/chrome\_ext/src/browswer\_action.html]() 
-for the html code controlling the display in the Chrome pop-up window display), the javascript function _get\_podcasts_ located 
-in [/chrome\_ext/src/browser\_action.js](https://github.com/alxdroR/foodTalk/blob/master/chrome_ext/src/browser_action/browser_action.js) sends 
-the recipe url to the Amazon server. Then, the related podcasts episode information (packaged as a JSON file) is sent back to the Chrome extension _get\reviews_ function in [/chrome\_ext/src/browswer\_action.js](https://github.com/alxdroR/foodTalk/blob/master/chrome_ext/src/browser_action/browser_action.js), 
+When the user clicks on the "Find podcast episodes" button on the chrome extension (see [/chrome\_ext/src/browswer\_action.html](https://github.com/alxdroR/foodTalk/blob/master/chrome_ext/src/browser_action/browser_action.html) 
+for the html code controlling the display in the Chrome pop-up window display), the javascript function _get\_reviews_ located 
+in [/chrome\_ext/src/browser\_action.js](https://github.com/MohsenGhassemi/ArtiCast/blob/master/Chrome_extension/src/browser_action/browser_action.js) sends 
+the recipe url to the Amazon server. Then, the related podcast episodes information (packaged into a JSON file) is sent back to the Chrome extension _get\podcasts_ function in [/chrome\_ext/src/browswer\_action.js](https://github.com/MohsenGhassemi/ArtiCast/blob/master/Chrome_extension/src/browser_action/browser_action.js), 
 unpacked and displayed onto the Chrome pop-up.
 
 ====================ANALYTICAL TOOLS
