@@ -10,7 +10,7 @@ All scraping tools in this repository are Jupyter notebooks. The scrape starts w
 
 ====================CHROME EXTENSION TOOLS
 
-The overall format of this chrome extension is based on [this repository]('https://github.com/jiananarthurli/insight_chrome_extension').
+The overall format of this chrome extension is based on [this repository](https://github.com/jiananarthurli/insight_chrome_extension).
 
 ====================ANALYTICAL TOOLS
 
