@@ -10,7 +10,6 @@ All scraping tools in this repository are Jupyter notebooks. The scrape starts w
 
 ====================CHROME EXTENSION TOOLS
 
-The files for the chrome extension can be found in 'mysite' directory.
 
 ====================ANALYTICAL TOOLS
 
