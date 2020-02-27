@@ -29,7 +29,7 @@ cached_url = 'https://www.cbinsights.com/research/report/amazon-across-financial
 
 
 
-floc = '/Users/mohsenghassemi/Desktop/Job_Material/Insight/Project/Data/'
+floc = '../../Data/'
 dbname = 'podcast_df_subset_BIGDATA_REDUCED.pkl'
 
 #Load up gensim model       
