@@ -23,7 +23,7 @@ The algorithm is implemented as an application on an Amazon EC2 instance using t
 When the user clicks on the "Find podcast episodes" button on the chrome extension (see [/chrome\_ext/src/browswer\_action.html](https://github.com/alxdroR/foodTalk/blob/master/chrome_ext/src/browser_action/browser_action.html) 
 for the html code controlling the display in the Chrome pop-up window display), the javascript function _get\_reviews_ located 
 in [/chrome\_ext/src/browser\_action.js](https://github.com/MohsenGhassemi/ArtiCast/blob/master/Chrome_extension/src/browser_action/browser_action.js) sends 
-the recipe url to the Amazon server. Then, the related podcast episodes information (packaged into a JSON file) is sent back to the Chrome extension _get\podcasts_ function in [/chrome\_ext/src/browswer\_action.js](https://github.com/MohsenGhassemi/ArtiCast/blob/master/Chrome_extension/src/browser_action/browser_action.js), 
+the article url to the Amazon server. Then, the related podcast episodes information (packaged into a JSON file) is sent back to the Chrome extension _get\_podcasts_ function in [/chrome\_ext/src/browswer\_action.js](https://github.com/MohsenGhassemi/ArtiCast/blob/master/Chrome_extension/src/browser_action/browser_action.js), 
 unpacked and displayed onto the Chrome pop-up.
 
 ## ====================ANALYTICAL TOOLS
